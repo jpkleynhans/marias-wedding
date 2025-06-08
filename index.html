@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Your Seat</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="Image1.jpeg"
+        alt="Wedding Image"
+        style="width: 100%; height: auto"
+      />
+      <header>
+        <h1>Marais Wedding</h1>
+        <h2>26/05/2025</h2>
+        <p>Enter your name to find your assigned table</p>
+      </header>
+
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Type here..." />
+        <button id="searchButton">Find My Table</button>
+      </div>
+
+      <div id="result" class="result-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
