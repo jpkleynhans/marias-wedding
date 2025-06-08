@@ -6,6 +6,56 @@ document.addEventListener("DOMContentLoaded", function () {
   // Predefined array of attendees
   const attendees = [
     {
+      name: "Ma",
+      surname: "Maryke",
+      table: "1",
+    },
+    {
+      name: "Rick",
+      surname: "Daverin",
+      table: "1",
+    },
+    {
+      name: "Rick+1",
+      surname: "",
+      table: "1",
+    },
+    {
+      name: "Ouma",
+      surname: "Ria",
+      table: "1",
+    },
+    {
+      name: "Wilma",
+      surname: "Laux",
+      table: "1",
+    },
+    {
+      name: "Francois",
+      surname: "Laux",
+      table: "1",
+    },
+    {
+      name: "Ankia",
+      surname: "van Wyk",
+      table: "1",
+    },
+    {
+      name: "Casper",
+      surname: "van Wyk",
+      table: "1",
+    },
+    {
+      name: "Mieke",
+      surname: "van Wyk",
+      table: "1",
+    },
+    {
+      name: "Alta",
+      surname: "van Deventer",
+      table: "1",
+    },
+    {
       name: "Pa",
       surname: "Deon",
       table: "2",
@@ -250,68 +300,10 @@ document.addEventListener("DOMContentLoaded", function () {
       surname: "Engels",
       table: "6",
     },
-    {
-      name: "Ma",
-      surname: "Maryke",
-      table: "1",
-    },
-    {
-      name: "Rick",
-      surname: "Daverin",
-      table: "1",
-    },
-    {
-      name: "Rick+1",
-      surname: "",
-      table: "1",
-    },
-    {
-      name: "Ouma",
-      surname: "Ria",
-      table: "1",
-    },
-    {
-      name: "Wilma",
-      surname: "Laux",
-      table: "1",
-    },
-    {
-      name: "Francois",
-      surname: "Laux",
-      table: "1",
-    },
-    {
-      name: "Ankia",
-      surname: "van Wyk",
-      table: "1",
-    },
-    {
-      name: "Casper",
-      surname: "van Wyk",
-      table: "1",
-    },
-    {
-      name: "Mieke",
-      surname: "van Wyk",
-      table: "1",
-    },
-    {
-      name: "Alta",
-      surname: "van Deventer",
-      table: "1",
-    },
   ];
 
-  // Search functionality
-  searchButton.addEventListener("click", searchAttendee);
-  searchInput.addEventListener("keyup", function (e) {
-    if (e.key === "Enter") {
-      searchAttendee();
-    } else {
-      // Live search as user types
-      searchAttendee();
-    }
-  });
+  // Search as user types
+  searchInput.addEventListener("input", searchAttendee);
 
   function searchAttendee() {
     const searchTerm = searchInput.value.trim().toLowerCase();
