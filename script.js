@@ -331,7 +331,7 @@ document.addEventListener("DOMContentLoaded", function () {
     foundAttendees.forEach((attendee) => {
       const resultItem = document.createElement("div");
       resultItem.className = "attendee-result";
-      resultItem.textContent = `${attendee.name} ${attendee.surname} | Table ${attendee.table}`;
+      resultItem.textContent = `${attendee.name} ${attendee.surname} | Tafel ${attendee.table}`;
       resultDiv.appendChild(resultItem);
     });
   }
