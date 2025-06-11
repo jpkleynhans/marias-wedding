@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("searchInput");
-  const searchButton = document.getElementById("searchButton");
   const resultDiv = document.getElementById("result");
 
   // Predefined array of attendees
@@ -16,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
       table: "1",
     },
     {
-      name: "Rick+1",
-      surname: "",
+      name: "Carla",
+      surname: "Bosschieter",
       table: "1",
     },
     {
@@ -196,18 +195,13 @@ document.addEventListener("DOMContentLoaded", function () {
       table: "4",
     },
     {
-      name: "Stephan ",
+      name: "Stephan",
       surname: "van der Westhuizen",
       table: "4",
     },
     {
-      name: "Jaques",
+      name: "Jacques",
       surname: "Marais",
-      table: "5",
-    },
-    {
-      name: "Elrica",
-      surname: "Atsma",
       table: "5",
     },
     {
