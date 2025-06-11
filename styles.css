@@ -8,8 +8,8 @@
 }
 
 @font-face {
-  font-family: "Kamrond";
-  src: url("Kamrond-Italic.otf") format("truetype");
+  font-family: "modernline";
+  src: url("modernline.otf") format("truetype");
 }
 
 * {
@@ -40,7 +40,7 @@ header {
 
 header h1 {
   font-size: 2.5rem;
-  font-family: "Kamrond", sans-serif;
+  font-family: "modernline", sans-serif;
   color: #800020;
   margin-bottom: 10px;
 }
