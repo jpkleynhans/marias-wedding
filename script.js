@@ -20,11 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
       table: "1",
     },
     {
-      name: "Ouma",
-      surname: "Ria",
-      table: "1",
-    },
-    {
       name: "Wilma",
       surname: "Laux",
       table: "1",
@@ -115,12 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
       table: "3",
     },
     {
-      name: "Colene",
-      surname: "Rossouw",
-      table: "3",
-    },
-    {
-      name: "Tian",
+      name: "Tiaan",
       surname: "Le Roux",
       table: "3",
     },
@@ -152,6 +142,11 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Adel",
       surname: "Kriel",
+      table: "3",
+    },
+    {
+      name: "Joggie",
+      surname: "Fotograaf",
       table: "3",
     },
     {
@@ -240,13 +235,13 @@ document.addEventListener("DOMContentLoaded", function () {
       table: "5",
     },
     {
-      name: "Joggie",
-      surname: "Fotograaf",
+      name: "Colene",
+      surname: "Rossouw",
       table: "5",
     },
     {
       name: "Katelyn",
-      surname: "",
+      surname: "Jordaan",
       table: "6",
     },
     {
