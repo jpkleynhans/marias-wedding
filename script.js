@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { name: "Deoné", surname: "Fouché", table: 2 },
     { name: "Phillip", surname: "Fouché", table: 2 },
     { name: "Riani", surname: "Steyn", table: 2 },
-    { name: "André", surname: "Steyn", table: 2 },
+    { name: "Lizemari", surname: "Brits", table: 2 },
     { name: "Deandré", surname: "Steyn", table: 2 },
     { name: "Hetta", surname: "Ouma", table: 2 },
     { name: "Hester", surname: "Erasmus", table: 2 },
